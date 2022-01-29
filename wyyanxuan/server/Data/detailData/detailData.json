@@ -1,0 +1,102 @@
+{
+    "gallery": [
+        {
+            "id": 1,
+            "picUrl": "https://yanxuan-item.nosdn.127.net/9fb79a3553828a118d7b9f1f202ee662.jpg?imageView&thumbnail=0x750"
+        }, {
+            "id": 2,
+            "picUrl": "https://yanxuan-item.nosdn.127.net/56d0f0a39c7e4e39f4ae8f449f5d6a0b.jpg?imageView&thumbnail=0x750"
+        }, {
+            "id": 3,
+            "picUrl": "https://yanxuan-item.nosdn.127.net/e41a1567a995b93044fd80cbd42298d0.jpg?imageView&thumbnail=0x750"
+        }, {
+            "id": 4,
+            "picUrl": "https://yanxuan-item.nosdn.127.net/410674bbe0dda8091e20bf0951e9b509.jpg?imageView&thumbnail=0x750"
+        }, {
+            "id": 5,
+            "picUrl": "https://yanxuan-item.nosdn.127.net/b77296c1afc415f066e59ea29482550c.jpg?imageView&thumbnail=0x750"
+        }
+    ],
+    "attrList": [
+        {
+            "id": 0,
+            "attrName": "功能",
+            "attrValue": "万能"
+        }, {
+            "id": 1,
+            "attrName": "适用季节",
+            "attrValue": "四季"
+        }, {
+            "id": 2,
+            "attrName": "形状",
+            "attrValue": "面包形"
+        }, {
+            "id": 3,
+            "attrName": "类型",
+            "attrValue": "记忆枕"
+        }, {
+            "id": 4,
+            "attrName": "高度",
+            "attrValue": "标准"
+        }, {
+            "id": 5,
+            "attrName": "软硬度",
+            "attrValue": "软硬适中"
+        }, {
+            "id": 6,
+            "attrName": "颜色",
+            "attrValue": "白色"
+        }
+    ],
+    "detailImg": [
+        {
+            "id": 1,
+            "picUrl": "https://yanxuan-item.nosdn.127.net/726972eca7604ae65cf831e7ac88b3f7.jpg"
+        }, {
+            "id": 2,
+            "picUrl": "https://yanxuan-item.nosdn.127.net/31c77cf1701c95d6dc5248c2404bdb5e.jpg"
+        }, {
+            "id": 3,
+            "picUrl": "https://yanxuan-item.nosdn.127.net/159e11c55730faf3a0061a5e95796de8.jpg"
+        },  {
+            "id": 4,
+            "picUrl": "https://yanxuan-item.nosdn.127.net/a4246230c885f0783dde1ba46624e05d.jpg"
+        }, {
+            "id": 5,
+            "picUrl": "https://yanxuan-item.nosdn.127.net/c3b36e6064f2a174548d57d44ca5b6db.jpg"
+        }, {
+            "id": 6,
+            "picUrl": "https://yanxuan-item.nosdn.127.net/15f484f2d8dacb6647fba504c8185770.jpg"
+        }, {
+            "id": 7,
+            "picUrl": "https://yanxuan-item.nosdn.127.net/c6001a2ff8658e6153335207213e66db.jpg"
+        }, {
+            "id": 8,
+            "picUrl": "https://yanxuan-item.nosdn.127.net/ab621dbbdcceb12d64af6327b645c3b5.jpg"
+        }, {
+            "id": 9,
+            "picUrl": "https://yanxuan-item.nosdn.127.net/43fd797fddd1e589c78bb2bfffd98b2d.jpg"
+        }, {
+            "id": 10,
+            "picUrl": "https://yanxuan-item.nosdn.127.net/304be92948b9d3be18e488e3076ccc74.jpg"
+        }, {
+            "id": 11,
+            "picUrl": "https://yanxuan-item.nosdn.127.net/fcb74aef16445d2f4988ada69ec41063.jpg"
+        }, {
+            "id": 12,
+            "picUrl": "https://yanxuan-item.nosdn.127.net/f3fd0fafcbb58b87c2f621ff9599a979.jpg"
+        }, {
+            "id": 13,
+            "picUrl": "https://yanxuan-item.nosdn.127.net/5f26d1e6b14544ec9d2a5aada4023256.jpg"
+        }, {
+            "id": 14,
+            "picUrl": "https://yanxuan-item.nosdn.127.net/40b9ab1adc14d02df33d5b6c5d3f90c0.jpg"
+        }, {
+            "id": 15,
+            "picUrl": "https://yanxuan-item.nosdn.127.net/f7a62bfe71670408ac8377b1415ffc04.jpg"
+        }, {
+            "id": 16,
+            "picUrl": "https://yanxuan-item.nosdn.127.net/00cb6c12f7be14122110a991307fd624.jpg"
+        }
+    ]
+}

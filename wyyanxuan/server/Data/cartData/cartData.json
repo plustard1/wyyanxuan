@@ -1,0 +1,34 @@
+    [
+        {
+            "img": "https://yanxuan-item.nosdn.127.net/52e072180895f920648b3304716bea70.jpg?quality=35&thumbnail=345x345&imageView",
+            "title":"呆萌摇头送吉风, 小风车桌面风扇",
+            "price": 99.90,
+            "num": 1,
+            "ischecked": false,
+            "id":0,
+            "size": [
+                "中号"
+            ],
+            "color": [
+                "百搭黑",
+                "复古绿",
+                "元气粉",
+                "活力黄"
+            ]
+        },
+        {
+            "img": "https://yanxuan-item.nosdn.127.net/023f7f0a220e882fdd6daf781b25689c.png?quality=35&thumbnail=345x345&imageView",
+            "title":"网易智造随身低频按摩贴专用电极片",
+            "price": 49,
+            "num": 1,
+            "ischecked": false,
+            "id":1,
+            "size": [
+                "S","M","L"
+            ],
+            "color": [
+                "静谧黑",
+                "极简白"
+            ]
+        }
+    ]

@@ -1,0 +1,81 @@
+{
+    "orderBarData": [
+        {
+            "id": 1,
+            "picUrl": "https://yanxuan.nosdn.127.net/16062838057234680.png",
+            "text": "全部订单"
+        },
+        {
+            "id": 2,
+            "picUrl": "https://yanxuan.nosdn.127.net/16063714996364706.png",
+            "text": "待付款"
+        },
+        {
+            "id": 3,
+            "picUrl": "https://yanxuan.nosdn.127.net/16063714996024705.png",
+            "text": "代发货"
+        },
+        {
+            "id": 4,
+            "picUrl": "https://yanxuan.nosdn.127.net/16063714306404703.png",
+            "text": "已发货"
+        },
+        {
+            "id": 5,
+            "picUrl": "https://yanxuan.nosdn.127.net/16063714306834704.png",
+            "text": "待评价"
+        }
+    ],
+    "myServiceData": [
+        {
+            "id": 1,
+            "picUrl": "https://yanxuan.nosdn.127.net/16063716881904714.png",
+            "text": "帮助与客服"
+        },
+        {
+            "id": 2,
+            "picUrl": "https://yanxuan.nosdn.127.net/16063716880804712.png",
+            "text": "我的积分"
+        },
+        {
+            "id": 3,
+            "picUrl": "https://yanxuan.nosdn.127.net/16063716879084710.png",
+            "text": "退换/售后"
+        },
+        {
+            "id": 4,
+            "picUrl": "https://yanxuan.nosdn.127.net/16063716875564708.png",
+            "text": "我要反馈"
+        },
+        {
+            "id": 5,
+            "picUrl": "https://yanxuan.nosdn.127.net/16063716875814709.png",
+            "text": "我的拼团"
+        },
+        {
+            "id": 6,
+            "picUrl": "https://yanxuan.nosdn.127.net/16063716873184707.png",
+            "text": "地址管理"
+        },
+        {
+            "id": 7,
+            "picUrl": "https://yanxuan.nosdn.127.net/16063716886374717.png",
+            "text": "账号安全"
+        },
+        {
+            "id": 8,
+            "picUrl": "https://yanxuan.nosdn.127.net/16063716882414715.png",
+            "text": "账号关联"
+        },
+        {
+            "id": 9,
+            "picUrl": "https://yanxuan.nosdn.127.net/16063716881164713.png",
+            "text": "我的手机号"
+        },
+        {
+            "id": 10,
+            "picUrl": "https://yanxuan.nosdn.127.net/2d0648fa0442bbc1e868e1ebff832fca.png",
+            "text": "加群领红包"
+        }
+    ]
+}

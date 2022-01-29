@@ -1,0 +1,207 @@
+{
+    "searchPlaceholder": [
+        {
+            "id": 0,
+            "text": "韩国香氛除菌喷雾"
+        },
+        {
+            "id": 1,
+            "text": "香氛浓缩洗衣凝珠"
+        },
+        {
+            "id": 2,
+            "text": "车载无线吸尘器"
+        }
+    ],
+    "rotationImg": [
+        {
+            "id": 1,
+            "picUrl": "https://yanxuan.nosdn.127.net/7e01b30c2c440e118cf09e14c7a69266.jpg?type=webp&imageView&quality=75&thumbnail=750x0",
+            "linkUrl": "http://localhost:3000/"
+        }, {
+            "id": 2,
+            "picUrl": "https://yanxuan.nosdn.127.net/e14d684c9dc43de2af5215c3d49b6870.jpg?type=webp&amp;imageView&amp;quality=75&amp;thumbnail=750x0",
+            "linkUrl": "http://localhost:3000/"
+        }, {
+            "id": 3,
+            "picUrl": "https://yanxuan.nosdn.127.net/7e01b30c2c440e118cf09e14c7a69266.jpg?type=webp&imageView&quality=75&thumbnail=750x0",
+            "linkUrl": "http://localhost:3000/"
+        }, {
+            "id": 4,
+            "picUrl": "https://yanxuan.nosdn.127.net/e14d684c9dc43de2af5215c3d49b6870.jpg?type=webp&amp;imageView&amp;quality=75&amp;thumbnail=750x0",
+            "linkUrl": "http://localhost:3000/"
+        }
+    ],
+    "rotatingSideImg": [
+        {
+            "id": 1,
+            "picUrl": "https://yanxuan.nosdn.127.net/static-union/1642392079778dd2.png"
+        }, {
+            "id": 2,
+            "picUrl": "https://yanxuan.nosdn.127.net/static-union/164239203159ce56.png"
+        }, {
+            "id": 3,
+            "picUrl": "https://yanxuan.nosdn.127.net/static-union/16423919770d06bd.png"
+        }
+    ],
+    "imgList": [
+        {
+            "id": 1,
+            "picUrl": "https://yanxuan.nosdn.127.net/static-union/1642474386bc8d64.jpeg?imageView&thumbnail=0x1052"
+        }, {
+            "id": 2,
+            "picUrl": "https://yanxuan.nosdn.127.net/static-union/164215430592fabd.png?imageView&thumbnail=0x1052"
+        }
+    ],
+    "menuBarData": {
+        "list1": [
+            {
+                "id": 1,
+                "picUrl": "https://yanxuan.nosdn.127.net/c7de4723f49857f8de407a47a39b07a8.jpg",
+                "type": "美食酒水"
+            },
+            {
+                "id": 2,
+                "picUrl": "https://yanxuan.nosdn.127.net/static-union/163643532258817e.jpeg",
+                "type": "居家生活"
+            },
+            {
+                "id": 3,
+                "picUrl": "https://yanxuan.nosdn.127.net/static-union/1636435322e9fea5.png",
+                "type": "服饰鞋包"
+            },
+            {
+                "id": 4,
+                "picUrl": "https://yanxuan.nosdn.127.net/static-union/16364353222a48d2.png",
+                "type": "个护清洁"
+            },
+            {
+                "id": 5,
+                "picUrl": "https://yanxuan.nosdn.127.net/b37c1d865c74385d1f5a7a1fbca954e0.png",
+                "type": "数码家电"
+            }
+        ],
+        "list2": [
+            {
+                "id": 1,
+                "picUrl": "https://yanxuan.nosdn.127.net/static-union/1636438546163e55.png",
+                "type": "超值捡漏"
+            },
+            {
+                "id": 2,
+                "picUrl": "https://yanxuan.nosdn.127.net/static-union/16342121896cbdad.png",
+                "type": "话费充值"
+            },
+            {
+                "id": 3,
+                "picUrl": "https://yanxuan.nosdn.127.net/static-union/16342670118c331f.png",
+                "type": "每日抄底"
+            },
+            {
+                "id": 4,
+                "picUrl": "https://yanxuan.nosdn.127.net/74e12b137bcb4cc5bad3503f7c88838b.png",
+                "type": "签到红包"
+            },
+            {
+                "id": 5,
+                "picUrl": "https://yanxuan.nosdn.127.net/0eb90f56c5b9ba749d915a3e5bd69a43.png",
+                "type": "免费领水果"
+            }
+        ],
+        "list3": [
+            {
+                "id": 1,
+                "picUrl": "https://yanxuan.nosdn.127.net/0cabf6b6773dcee131bf4ef8e5bb84e9.png",
+                "type": "母婴亲子"
+            },
+            {
+                "id": 2,
+                "picUrl": "https://yanxuan.nosdn.127.net/2433ad6d55b6442cae91c67ba7487c24.png",
+                "type": "严选超市"
+            },
+            {
+                "id": 3,
+                "picUrl": "https://yanxuan.nosdn.127.net/static-union/16364353224d665c.jpeg",
+                "type": "餐厨清洁"
+            },
+            {
+                "id": 4,
+                "picUrl": "https://yanxuan.nosdn.127.net/static-union/1636435322239239.png",
+                "type": "寻味中国"
+            },
+            {
+                "id": 5,
+                "picUrl": "https://yanxuan.nosdn.127.net/static-union/1636435322b360d0.png",
+                "type": "严选全球"
+            }
+        ],
+        "list4": [
+            {
+                "id": 1,
+                "picUrl": "https://yanxuan.nosdn.127.net/static-union/16347809465f5506.png",
+                "type": "新品首发"
+            },
+            {
+                "id": 2,
+                "picUrl": "https://yanxuan.nosdn.127.net/static-union/163237668701915a.png",
+                "type": "众筹"
+            },
+            {
+                "id": 3,
+                "picUrl": "https://yanxuan.nosdn.127.net/38c747ae6c1eb0260a5730664cae93bf.png",
+                "type": "大牌补贴"
+            },
+            {
+                "id": 4,
+                "picUrl": "https://yanxuan.nosdn.127.net/static-union/163669766634fe93.png",
+                "type": "Pro会员"
+            },
+            {
+                "id": 5,
+                "picUrl": "https://yanxuan.nosdn.127.net/aef13032e9f68923b64d4d4104e4cfe1.png",
+                "type": "邀新拼团"
+            }
+        ],
+        "navBar": {
+            "home": "https://yanxuan.nosdn.127.net/16073116903475585.png"
+        }
+    },
+    "mainMenu": [
+        {
+            "id": 0,
+            "text": "为你推荐"
+        },
+        {
+            "id": 1,
+            "text": "居家生活"
+        },
+        {
+            "id": 2,
+            "text": "服饰鞋包"
+        },
+        {
+            "id": 3,
+            "text": "美食酒水"
+        },
+        {
+            "id": 4,
+            "text": "个护清洁"
+        },
+        {
+            "id": 5,
+            "text": "母婴亲子"
+        },
+        {
+            "id": 6,
+            "text": "运动旅行"
+        },
+        {
+            "id": 7,
+            "text": "数码家电"
+        },
+        {
+            "id": 8,
+            "text": "全球特色"
+        }
+    ]
+}
