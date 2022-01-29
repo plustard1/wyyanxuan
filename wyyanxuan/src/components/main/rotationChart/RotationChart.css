@@ -1,0 +1,55 @@
+.rotation {
+  display: flex;
+  width: 100%;
+}
+
+.rotation-box__main {
+  flex: 2;
+  /* width: 4.388rem 1014/108; */
+  height: 2.6944rem
+    /* 291/108 */
+  ;
+  overflow: hidden;
+  font-size: 0;
+  border-radius: 5px;
+  padding: 6px 10px 20px 10px;
+  /* background-color: white; */
+}
+
+.rotation-box__slide {
+  flex: 1;
+  /* width: 100%; */
+  /* width: 4.388rem 1014/108; */
+  height: 2.6944rem
+    /* 291/108 */
+  ;
+  overflow: hidden;
+  font-size: 0;
+  border-radius: 5px;
+  padding-top: 6px;
+}
+
+.rotationChart-img__slide {
+  display: inline-block;
+  object-fit: cover;
+  height: 2.6944rem
+    /* 291/108 */
+  ;
+  width: 2.2rem;
+  border-radius: 5px;
+}
+
+.rotationChart-img__main {
+  display: inline-block;
+  height: 2.6944rem
+    /* 291/108 */
+  ;
+  width: 4.388rem;
+  border-radius: 5px;
+}
+
+.swiper {
+  --swiper-pagination-color: #fdb3a9;
+  /* 两种都可以 */
+  width: 9.388rem;
+}

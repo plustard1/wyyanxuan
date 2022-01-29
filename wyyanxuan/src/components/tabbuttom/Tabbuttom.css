@@ -1,0 +1,43 @@
+.Botton-warper {
+    position: fixed;
+    display: flex;
+    width: 10rem;
+    height: 1.8rem;
+    bottom: 0px;
+    background-color: #ffffff;
+    flex-wrap: wrap;
+    z-index: 10;
+    border: 0 solid #333333;
+    border-top-width: 1px;
+}
+.Botton-warper li {
+    list-style: none;
+    text-align: center;
+    font-size: 0;
+}
+.Botton-warper .Botton-warper-warp {
+    flex: 1;
+    text-align: center;
+    margin-top: 8px;
+}
+.Botton-warper .Botton-warper-warp .icon {
+    display: inline-block;
+    width: 0.8rem;
+    height: 0.9rem;
+    background-color: #fff;
+    /* background: url('../../assets/images//foot-v3.png'); */
+    /* background-repeat: no-repeat; */
+    /* background-position: -3.333rem -0.833rem; */
+    /* 93/108 */
+    /* background-size: 650%; */
+    /* overflow: hidden; */
+}
+.Botton-warper .Botton-warper-warp .icon .icon-img {
+    width: 0.8rem;
+    height: 0.8rem;
+}
+.Botton-warper .Botton-warper-warp .planet {
+    position: relative;
+    color: #969494;
+    font-size: 0.3rem;
+}

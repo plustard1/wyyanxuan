@@ -1,0 +1,9 @@
+export const CHANGE_CARTDATA = 'CHANGE_CARTDATA';
+export const CHANGE_LOGO = 'CHANGE_LOGO';
+export const REDUCE_NUM = 'REDUCE_NUM';
+export const ADD_NUM = 'ADD_NUM';
+export const CHNANGE_NUM = 'CHNANGE_NUM';
+export const SELECT_ALL = 'SELECT_ALL';
+export const GOTOCART = 'GOTOCART';
+export const DELETE = 'DELETE';
+export const ALL_MONEY = 'ALL_MONEY';

@@ -1,0 +1,39 @@
+.menu-bar {
+    margin: 0.2315rem 0 0.3315rem /* 25/108 */;
+    padding-bottom: 0.4356rem;
+    background-color: #ffffff;
+    border-radius: 10px;
+  }
+  .menu-bar1 {
+    height: 5.0741rem /* 548/108 */;
+    padding: 0.6667rem /* 72/108 */ /* 24/108 */ 0 0.6352rem /* 47/108 */ 0 /* 24/108 */;
+    box-sizing: border-box;
+  }
+  .menu-bar1 .swiper-menu {
+    width: 100% ;
+  }
+  .menu-bar1 .swiper-slide {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-menu {
+    overflow: hidden;
+  }
+  .swiper-wrapper {
+    margin-bottom: 10px;
+  }
+  .swiper-pagination-bullets {
+    bottom: -6px !important;
+  }
+  .swiper-pagination-bullet {
+    width: 0.6481rem  !important;
+    height: 0.0926rem /* 10/108 */ !important;
+    margin: 0 !important;
+    border-radius: 10px !important;
+  }
+  .swiper-pagination-bullet-active {
+    background-color: #f64949;
+    height: 0.0926rem /* 10/108 */;
+  }
+  

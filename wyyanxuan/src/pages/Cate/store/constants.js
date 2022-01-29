@@ -1,0 +1,2 @@
+export const CHANGE_CATEDATA = 'CHANGE_CATEDATA';
+export const SET_CURNAV = 'SET_CURNAV';

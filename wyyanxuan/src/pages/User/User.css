@@ -1,0 +1,15 @@
+.user {
+    height: calc(100vh - 0.65rem);
+    width: 100vw;
+}
+
+.user .user-padding {
+    padding: 0rem 0.324rem 0 0.324rem;
+    background: rgb(240, 240, 240);
+}
+
+.user .user__item-padding {
+    padding: 0rem 0.324rem 0rem 0.324rem;
+    margin-top: 12px;
+    background-color: #ffffff;
+}

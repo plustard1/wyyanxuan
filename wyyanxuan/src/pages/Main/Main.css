@@ -1,0 +1,11 @@
+.main {
+    height: calc(100vh - 0.65rem);
+}
+.main .main-padding {
+    padding: 0rem 0.324rem 0;
+    background-color: #ef5f38;
+}
+.main .main__item-padding {
+    padding: 0rem 0.324rem 0;
+    background-color: #ffffff;
+}
