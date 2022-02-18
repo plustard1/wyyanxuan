@@ -1,3 +1,5 @@
+import { floatAdd } from "../../../api/utils"
+// 解决小数精度问题
 export const change_logo = (cartItem, cartdata = []) => {
     const {id} = cartItem
     let index = cartdata.findIndex((item) => item.id == id)
@@ -7,7 +9,7 @@ export const change_logo = (cartItem, cartdata = []) => {
 
 export const allmoney = (cartdata) => {
     let arr = cartdata.filter(item => item.isChecked)
-    return arr.reduce((sum, cur) => sum + cur.price * cur.num, 0)
+    return arr.reduce((sum, cur) => floatAdd(sum, cur.price * cur.num), 0)
 }
 
 export const reduce_num = (id, cartdata) => {
