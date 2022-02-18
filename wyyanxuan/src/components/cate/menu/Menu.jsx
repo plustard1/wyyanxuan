@@ -1,15 +1,12 @@
-import React, { useState, useContext } from "react"
+import React from "react"
 import classNames from 'classnames'
-import { CurNavContext } from "@/pages/Cate/Cate"
 import { Slide } from './Menu.style.js'
 
 const Menu = (props) => {
-    const { cateMenu } = props
-    const { curNav, setCurNav } = useContext(CurNavContext)
+    const { cateMenu, curNav, setCurNav } = props
     console.log(curNav)
     return (
         <Slide>
-            <CurNavContext.Provider value={{ curNav, setCurNav }}>
                 <div className="cate-menu">
                     {
                         cateMenu.map((item, index) => {
@@ -24,7 +21,6 @@ const Menu = (props) => {
                         })
                     }
                 </div>
-            </CurNavContext.Provider>
         </Slide>
     )
 }

@@ -1,16 +1,12 @@
-import React, { useContext } from "react"
-import { CurNavContext } from '@/pages/Cate/Cate'
+import React from "react"
 import Loading from "@/components/loading/Loading"
 import { BannerList } from './Banner.style.js'
 
 const Banner = (props) => {
-    const { cateList } = props
-
-    const { curNav } = useContext(CurNavContext)
+    const { cateList, curNav } = props
     console.log(cateList);
     return (
         <BannerList>
-            <CurNavContext.Provider value={curNav}>
                 <div className="cate-banner">
                     {
                         cateList.length === 0 ? <Loading /> :
@@ -23,7 +19,6 @@ const Banner = (props) => {
                             })
                     }
                 </div>
-            </CurNavContext.Provider>
         </BannerList>
     )
 }

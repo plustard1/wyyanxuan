@@ -1,16 +1,12 @@
-import React, { createContext, useContext } from "react"
+import React from "react"
 import classNames from "classnames"
 import Loading from '@/components/loading/Loading'
-import { CurNavContext } from '@/pages/Cate/Cate'
 import { ListContent } from './List.style.js'
 
 const List = (props) => {
-    const { cateList } = props
-    const { curNav } = useContext(CurNavContext)
-    console.log(props);
+    const { cateList, curNav } = props
     return (
         <ListContent>
-            <CurNavContext.Provider value={curNav}>
                 <div className="cate-list_wrap">
                     {
                         cateList.length === 0 ? <Loading /> :
@@ -39,7 +35,6 @@ const List = (props) => {
                             })
                     }
                 </div>
-            </CurNavContext.Provider >
         </ListContent>
     )
 }

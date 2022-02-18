@@ -1,4 +1,4 @@
-import React, { useState, useEffect, createContext } from "react"
+import React, { useState, useEffect, memo, createContext } from "react"
 import { connect } from "react-redux"
 import * as actionTypes from './store/actionCreators'
 import Scroll from '@/baseUI/scroll/index'
@@ -7,13 +7,11 @@ import Menu from '@/components/cate/menu/Menu'
 import Banner from '@/components/cate/banner/Banner'
 import List from '@/components/cate/list/List'
 
-export const CurNavContext = createContext()
 
 const Cate = (props) => {
     const [curNav, setCurNav] = useState(0)
     const { catedata } = props;
     const { getCateDataDispatch } = props
-    console.log(catedata);
     const { cateMenu = [], cateList = [] } = catedata
 
     useEffect(() => {
@@ -23,23 +21,21 @@ const Cate = (props) => {
     }, [])
 
     return (
-        <CurNavContext.Provider value={{ curNav, setCurNav }}>
             <div className="cate">
                 <div className="cate-padding">
-                    <Menu cateMenu={cateMenu} />
+                    <Menu cateMenu={cateMenu} curNav={curNav} setCurNav={setCurNav}/>
                     <Scroll direction={"vertical"} refresh={false} className="cate-list"
                         onScroll={(e) => {
                             // console.log(e)
                         }}
                     >
                         <div>
-                            <Banner cateList={cateList} />
-                            <List cateList={cateList} />
+                            <Banner cateList={cateList} curNav={curNav}/>
+                            <List cateList={cateList} curNav={curNav}/>
                         </div>
                     </Scroll>
                 </div>
             </div>
-        </CurNavContext.Provider>
     )
 }
 
@@ -56,4 +52,4 @@ const mapStateToProps = (state) => {
         catedata: state.cate.catedata
     }
 }
-export default connect(mapStateToProps, mapStateToDispatch)(Cate)
+export default connect(mapStateToProps, mapStateToDispatch)(memo(Cate))
