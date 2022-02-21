@@ -22,8 +22,9 @@ export const List = styled.div `
         background: #ffffff;
         flex: 1;
         .ListItem-img{
-            /* margin-right: 0.086rem; */
             border-radius:1px;
+            width: 4.5rem;
+            margin: 0 auto;
             .ListItem-content__img{
                 width: 4.5rem;
                 border-radius:9px;
@@ -33,11 +34,23 @@ export const List = styled.div `
     }
     .ListItem--right {
         margin-right: 0px;
+        background: #ffffff;
+        flex: 1;
+        .ListItem-img{
+            border-radius:1px;
+            width: 4.5rem;
+            margin: 0 auto;
+            .ListItem-content__img{
+                width: 4.5rem;
+                border-radius:9px;
+                overflow:hidden;
+            }     
+        }
     }
 `;
 export const TextContent = styled.div `
     position:relative;
-    height:100%;
+    height:80px;
     .ListItem-title{
         padding:0.2rem 0rem 0 0.2rem;
         text-align: left;

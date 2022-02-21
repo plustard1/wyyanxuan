@@ -12,7 +12,7 @@ const ListItem = (props) => {
     }
     return (
         <List >
-            <div onClick={() => gotoDetail(item.id)}>
+            <div onClick={() => gotoDetail(item.id)} className="ListItem">
                 <div className="ListItem-img">
                     <div className="ListItem-content__img">
                         <LazyLoad style={{ 'height': '160px', 'width': '160px' }} placeholder={

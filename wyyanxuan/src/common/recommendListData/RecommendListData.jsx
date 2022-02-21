@@ -42,7 +42,7 @@ export const RecommendListData = (props) => {
                 <p className="spanblack"></p>
             </div>
 
-            <div onClick={() => gotoDetail(1)} className='ListItem'>
+            <div onClick={() => gotoDetail(1)} className='ListItem--right'>
                 <div className="ListItem-img" >
                     <div className="ListItem-content__img">
                         <LazyLoad height={100} placeholder={

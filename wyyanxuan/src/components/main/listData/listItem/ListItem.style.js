@@ -1,9 +1,8 @@
 import styled from 'styled-components';
 
 export const List = styled.div `
-    height:6.4rem;
+    height:6.2rem;
     margin-bottom:0.457rem;
-    margin-left: 0.176rem;
     text-decoration:column;
     box-sizing:border-box;
     padding-top:0.35rem;
@@ -11,20 +10,24 @@ export const List = styled.div `
     justify-content: center;
     display: flex;
     flex: 1;
-    .ListItem-img{
-        border-radius:1px;
-        .ListItem-content__img{
+    .ListItem{
+        height: 250px;
+        .ListItem-img{
+            border-radius:1px;
             width: 160px;
-            border-radius:9px;
-            overflow:hidden;
-        }     
+            .ListItem-content__img{
+                width: 160px;
+                border-radius:9px;
+                overflow:hidden;
+            }     
+        }
     }
     
   
 `;
 export const TextContent = styled.div `
     position:relative;
-    height:100%;
+    height:90px;
     .ListItem-title{
         padding:0.2rem 0rem 0 0;
         box-sizing:border-box;
@@ -39,11 +42,11 @@ export const TextContent = styled.div `
         color:red;
         display: flex;
         .dollar {
-            margin-top: 0.28rem;
+            padding-top: 0.3rem;
             font-size: 0.4rem;
         }
         .ListItem-price__num {
-            padding-bottom: 1rem;
+            
             font-weight: 600;
             font-size: 0.66rem;
         }
